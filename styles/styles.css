@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+}
+
+.container-awesome, .container-awesome-header, .container-tabs{
+    width: 100%;
+    max-width: 1170px;
+} 
+
+.container-awesome, .container-tabs{
+    margin: 50px auto;
+    box-sizing: border-box;
+}
+
+.container-tabs{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 99px;
+}
+
+.container-tabs__wrapper{
+    margin-bottom: -1px;
+}
+
+.tab-values__tab-action{
+    display: none;
+}
+
+.tabs-values__title{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+
+    padding: 10px 73px;
+    width: 100%;
+    max-width: 38px;
+    height: 100%;
+    max-height: 19px;
+    border: 1px solid rgba(198, 203, 205, 1);
+    border-radius: 5px 5px 0 0;
+
+}
+
+.tabs-values__title:not(.label1){
+    margin-left: -5px;
+}
+
+.tabs-values__content{
+    display: none;
+    width: 100%;
+    max-width: 1170px;
+    height: 500px;
+    border: 1px solid rgba(198, 203, 205, 1);
+    margin-top: 9px; 
+}
+
+.tab-inner-content{
+    width: 47%;
+    float: left;
+    margin: 0 2px 54px 100px;
+}
+
+.content-tab__image{
+    margin-left: 48px;
+}
+
+.tab-inner-content__header{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+
+    width: 100%;
+    max-width: 570px;
+    height: 100%;
+    max-height: 124px;
+    padding: 47px 0;
+    margin-bottom: 27px;
+    box-sizing: border-box;
+}
+
+.tab-inner-content__text{
+    width: 100%;
+    max-width: 570px;
+    height: 100%;
+    max-height: 210px;
+    margin-bottom: 27px;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.tab-inner-content__button{
+    width: 270px;
+    height: 58px;
+    background-color: rgba(236, 121, 121, 1);
+    border: none;
+
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.tab-inner-content__button:hover{
+    background-color: rgba(171, 73, 73, 1);
+}
+
+.tab-inner-content__button:active{
+    box-shadow: inset 0 0 10px rgba(171, 73, 73, 1);
+}
+
+#tab1:checked ~ .label1{
+    border-color: rgba(198, 203, 205, 1);
+    border-bottom-color: white;
+}
+
+#tab1:checked ~ .label2, .label3{
+    border-color: white;
+    border-bottom-color: rgba(198, 203, 205, 1);
+}
+
+#tab1:checked ~ .content-tab1{
+    display: block;
+}
+
+#tab2:checked ~ .label2{
+    border-color: rgba(198, 203, 205, 1);
+    border-bottom-color: white;
+}
+
+#tab2:checked ~ .label1, .label3{
+    border-color: white;
+    border-bottom-color: rgba(198, 203, 205, 1);
+}
+
+#tab2:checked ~ .content-tab2{
+    display: block;
+}
+
+#tab3:checked ~ .label3{
+    border-color: rgba(198, 203, 205, 1);
+    border-bottom-color: white;
+}
+
+#tab3:checked ~ .label1, .label2{
+    border-color: white;
+    border-bottom-color: rgba(198, 203, 205, 1);
+}
+
+#tab3:checked ~ .content-tab3{
+    display: block;
+}
+
+.container-awesome{
+    font-family: 'Raleway', sans-serif;
+}
+
+.container-awesome-header{
+    height: 100%;
+    max-height: 150px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container-awesome-header_h2{
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.container-awesome-line{
+    display: flex;
+    margin: 0 auto;
+    width: 170px;
+    content: '';
+    height: 1px;
+    background-color: rgba(236, 121, 121, 1);
+    border: none;
+}
+
+.container-awesome-subtext{
+    display: block;
+    margin-top: 40px;
+}
+
+.container-awesome-subtext_h5{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(134, 135, 139, 1);
+    text-align: center;
+}
+
+.container-awesome-blocks{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 71px;
+}
+.container-awesome-blocks_block{
+    text-align: center;
+    vertical-align: middle;
+    width: 370px;
+    height: 383px;
+}
+
+.container-awesome-blocks_block:not(:last-child){
+    margin-right: 30px;
+}
+
+.container-awesome-blocks_h4, .container-awesome-blocks_h5{
+    width: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-awesome-blocks_img{
+    margin: 0 auto;
+    display: inline-block;
+}
+.container-awesome-blocks_h4{
+    height: 100%;
+    max-height: 100px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.container-awesome-blocks_h5{
+    height: 100%;
+    max-height: 105px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+
+
+
+
+
+
+
+
