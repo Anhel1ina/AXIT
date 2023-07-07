@@ -155,7 +155,9 @@ body{
     display: block;
 }
 
-.container-awesome{
+.container-awesome, 
+.container-pricing,
+.container-customers{
     font-family: 'Raleway', sans-serif;
 }
 
@@ -244,11 +246,11 @@ body{
 }
 
 .container-pricing{
-    font-family: 'Raleway', sans-serif;
     background-color: rgba(245, 245, 245, 1);
 }
 
-.pricing-content{
+.pricing-content,
+.customers-content{
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
@@ -275,7 +277,8 @@ body{
     margin: -1px auto 40px;
 }
 
-.pricing-content__text{
+.pricing-content__text,
+.customers-content__text{
     margin: 0;
     text-align: center;
     font-size: 18px;
@@ -361,6 +364,108 @@ body{
     background-color: white;
     padding: 12px 0;
 }
+
+.customers-content{
+    margin: 50px auto 64px;
+}
+
+.customers-content__h2{
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 150px;
+    margin: 0;
+}
+
+.customers-content__separator{
+    width: 100%;
+    width: 170px;
+    height: 1px;
+    border: none;
+    background-color: rgba(236, 121, 121, 1);
+    margin: -1px auto 0;
+}
+
+.customers-content__text{
+    margin-top: 40px;
+}
+
+.customers-content__reviews{
+    display: flex;
+    margin-top: 83px;
+}
+
+.reviews-content__item{
+    width: 100%;
+    max-width: 370px;
+} 
+
+.reviews-content__item:not(:last-child){
+    margin-right: 30px;
+}
+
+.review-message__text{
+    background-color: rgba(226, 226, 226, 1);
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(134, 135, 139, 1);
+    text-align: center;
+
+    height: 180px;
+    margin: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 37px 18px;
+}
+
+.review-message-element{
+    width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid rgba(226, 226, 226, 1);
+    margin: 0 0 0 70px;
+}
+
+.item-review-content__person{
+    display: flex;
+    margin-top: 46px;
+}
+
+.review-person__content{
+    margin-left: 30px;
+}
+
+.review-person__image{
+    height: 70px;
+}
+
+.person-content__name{
+    height: 54px;
+    box-sizing: border-box;
+    padding: 15px 0;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: capitalize;
+    margin: 0 0 15px 0;
+}
+
+.person-content__occup{
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+
 
 
 
