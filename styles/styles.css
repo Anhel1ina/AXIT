@@ -417,14 +417,17 @@ body{
     color: rgba(134, 135, 139, 1);
     text-align: center;
 
-    height: 180px;
+    height: 100%;
+    min-height: 180px;
     margin: 0;
     border-radius: 10px;
     box-sizing: border-box;
     padding: 37px 18px;
 }
 
-.review-message-element{
+.review-message::after{
+    content: '';
+    display: block;
     width: 0;
 	height: 0;
 	border-left: 15px solid transparent;
@@ -464,13 +467,3 @@ body{
     text-transform: capitalize;
     margin: 0;
 }
-
-
-
-
-
-
-
-
-
-
