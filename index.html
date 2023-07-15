@@ -10,7 +10,53 @@
     <title>AXIT</title>
 </head>
 <body>
-    <div class="container-tabs">
+    <header class="main-page__header main-header">
+        <img src="./images/logo_header.svg" alt="AXIT logo-header" class="main-header-logo">
+        <nav class="main-header__nav-bar main-nav-bar">
+            <a href="#features" class="main-nav-bar__a">Features</a>
+            <a href="#about" class="main-nav-bar__a">About</a>
+            <a href="#pricing" class="main-nav-bar__a">Pricing</a>
+            <a href="#reviews" class="main-nav-bar__a">Reviews</a>
+            <a href="#contact" class="main-nav-bar__a">Contact</a>
+        </nav>
+    </header>
+    <div class="container-main-page" id="features">
+        <div class="container-main-page__content main-content">
+            <div class="main-content__inner-content inner-content">
+                <img src="./images/logo.svg" alt="AXIT logo" class="inner-logo__img">
+                <h1 class="inner-content__h1">modern axure template for beautiful prototypes</h1>
+                <p class="inner-content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <input type="button" value="Download" class="inner-content__button"/>
+            </div>
+            <form class="main-content__form main-form">
+                <h4 class="main-form__h4">try your <span class="main-form__h4-free-text">&nbsp;free&nbsp;</span>trial today</h4>
+                <div class="main-form__items form-items">
+                    <input type="text" placeholder="Name" name="main-form-name" class="main-form__name main-form__input">
+                    <input type="email" placeholder="Email" name="main-form-email" class="main-form__email main-form__input">
+                    <input type="password" placeholder="Password" name="main-form-password" class="main-form__password main-form__input">
+                </div>
+                <input type="submit" value="Get Started!" class="main-form__button"/>
+            </form>
+        </div>
+    </div>
+    <div class="container-social-media">
+        <div class="container-social-media__content smedia-inner-content">
+            <div class="smedia-inner-content__text smedia-text">
+                <h4 class="smedia-text__h4">social media</h4>
+                <p class="smedia-text__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vitae cupiditate consectetur!</p>
+            </div>
+            <div class="smedia-inner-content__icons smedia-icons">
+                <a href="#" class="smedia-icons__item"><img src="./images/facebook.svg" alt="facebook" class="smedia-icons__img"></a>
+                <a href="#" class="smedia-icons__item"><img src="./images/twitter.svg" alt="twitter" class="smedia-icons__img"></a>
+                <a href="#" class="smedia-icons__item"><img src="./images/linkedin.svg" alt="linkedin" class="smedia-icons__img"></a>
+                <a href="#" class="smedia-icons__item"><img src="./images/pinterest.svg" alt="pinterest" class="smedia-icons__img"></a>
+                <a href="#" class="smedia-icons__item"><img src="./images/instagram.svg" alt="instagram" class="smedia-icons__img"></a>
+                <a href="#" class="smedia-icons__item"><img src="./images/github.svg" alt="github" class="smedia-icons__img"></a>
+                <a href="#" class="smedia-icons__item"><img src="./images/rss.svg" alt="rss" class="smedia-icons__img"></a>
+            </div>
+        </div>
+    </div>
+    <div class="container-tabs" >
         <div class="container-tabs__wrapper tabs-values">
             <input type="radio" name="action" id="tab1" class="tab-values__tab-action tab1" checked/>
             <input type="radio" name="action" id="tab2" class="tab-values__tab-action tab2"/>
@@ -70,7 +116,7 @@
             </div>
         </div>
     </div>
-    <div class="container-awesome">
+    <div class="container-awesome" id="about">
         <header class="container-awesome-header">
             <h2 class="container-awesome-header_h2">why this is awesome</h2>
         </header>
@@ -102,7 +148,7 @@
             </div>
         </div>
     </div>
-    <div class="container-pricing">
+    <div class="container-pricing" id="pricing">
         <div class="container-pricing__inner-content pricing-content">
             <h2 class="pricing-content__h2">
                 pricing options
@@ -110,7 +156,7 @@
             <p class="pricing-content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <div class="pricing-content__blocks pricing-cards">
                 <div class="pricing-cards__item pricing-card card1">
-                    <div class="pricing-card__main-part_black pricing-card-black1">
+                    <div class="pricing-card__main-part_black pricing-card-black">
                         <div class="pricing-card-black__item1">basic</div>
                         <div class="pricing-card-black__item2">$10</div>
                         <div class="pricing-card-black__item3">Free for life</div>
@@ -125,7 +171,7 @@
                     </div>
                 </div>
                 <div class="pricing-cards__item pricing-card card2">
-                    <div class="pricing-card__main-part_black pricing-card-black2">
+                    <div class="pricing-card__main-part_black pricing-card-black">
                         <div class="pricing-card-black__item1">optima</div>
                         <div class="pricing-card-black__item2">$20</div>
                         <div class="pricing-card-black__item3">Free for life</div>
@@ -140,7 +186,7 @@
                     </div>
                 </div>
                 <div class="pricing-cards__item pricing-card card3">
-                    <div class="pricing-card__main-part_black pricing-card-black3">
+                    <div class="pricing-card__main-part_black pricing-card-black">
                         <div class="pricing-card-black__item1">pro</div>
                         <div class="pricing-card-black__item2">$30</div>
                         <div class="pricing-card-black__item3">Free for life</div>
@@ -157,7 +203,7 @@
             </div>
         </div>
     </div>
-    <div class="container-customers">
+    <div class="container-customers" id="reviews">
         <div class="container-customers__inner-content customers-content">
             <h2 class="customers-content__h2">
                 what our customers are saying
@@ -204,5 +250,45 @@
             </div>
         </div>
     </div>
+    <div class="container-design">
+        <div class="container-design__content design-inner-content">
+            <h2 class="design-inner-content__h2">stylish axure design</h2>
+            <hr class="design-inner-content__separator">
+            <p class="design-inner-content__text">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
+            <input class="design-inner-content__button" type="button" value="Download"/>
+        </div>
+    </div>
+    <div class="container-contacts" id="contact">
+        <div class="container-contacts__inner-content contacts-content">
+            <h2 class="contacts-content__h2">
+                contact us
+            </h2>
+            <hr class="contacts-content__separator">
+            <p class="contacts-content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <form class="contact-content__form contact-form">
+                <div class="contact-form__items contact-form-block">
+                    <input type="text" name="contact-form-name" placeholder="Name" class="contact-form-block__item">
+                    <input type="email" name="contact-form-email" placeholder="Email" class="contact-form-block__item">
+                    <input type="password" name="contact-form-password" placeholder="Password" class="contact-form-block__item">
+                    <textarea name="contact-form-message" placeholder="Message" class="contact-form-block__textarea"></textarea>
+                </div>
+                <input type="submit" value="Send Message" class="contact-form__button">
+            </form>
+        </div>
+    </div>
+    <footer class="main-footer">
+        <div class="main-footer__content footer-inner-content">
+            <div class="footer-inner-content__icons footer-icons">
+                <a href="" class="footer-icons__item"><img src="./images/facebook.svg" alt="" class="footer-icons__img"></a>
+                <a href="" class="footer-icons__item"><img src="./images/twitter.svg" alt="" class="footer-icons__img"></a>
+                <a href="" class="footer-icons__item"><img src="./images/linkedin.svg" alt="" class="footer-icons__img"></a>
+                <a href="" class="footer-icons__item"><img src="./images/pinterest.svg" alt="" class="footer-icons__img"></a>
+                <a href="" class="footer-icons__item"><img src="./images/instagram.svg" alt="" class="footer-icons__img"></a>
+                <a href="" class="footer-icons__item"><img src="./images/github.svg" alt="" class="footer-icons__img"></a>
+                <a href="" class="footer-icons__item"><img src="./images/rss.svg" alt="" class="footer-icons__img"></a>
+            </div>
+            <p class="footer-inner-content__sign">&#169 2015 axure themes</p>
+        </div>
+    </footer>
 </body>
 </html>
