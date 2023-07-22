@@ -1,24 +1,34 @@
 <html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./styles/styles.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <title>AXIT</title>
 </head>
+
 <body>
+    <input type="checkbox" id="burger-menu" class="header-content__burger-menu-check">
     <header class="main-page__header main-header">
-        <img src="./images/logo_header.svg" alt="AXIT logo-header" class="main-header-logo">
-        <nav class="main-header__nav-bar main-nav-bar">
-            <a href="#features" class="main-nav-bar__a">Features</a>
-            <a href="#about" class="main-nav-bar__a">About</a>
-            <a href="#pricing" class="main-nav-bar__a">Pricing</a>
-            <a href="#reviews" class="main-nav-bar__a">Reviews</a>
-            <a href="#contact" class="main-nav-bar__a">Contact</a>
-        </nav>
+        <div class="main-header__inner-content header-content">
+            <img src="./images/logo_header.svg" alt="AXIT logo-header" class="header-content-logo">
+            <label class="header-content__burger-menu burger-menu" for="burger-menu">
+                <hr class="burger-menu__line line1">
+                <hr class="burger-menu__line line2">
+                <hr class="burger-menu__line line3">
+            </label>
+            <nav class="header-content__nav-bar main-nav-bar">
+                <a href="#features" class="main-nav-bar__a">Features</a>
+                <a href="#about" class="main-nav-bar__a">About</a>
+                <a href="#pricing" class="main-nav-bar__a">Pricing</a>
+                <a href="#reviews" class="main-nav-bar__a">Reviews</a>
+                <a href="#contact" class="main-nav-bar__a">Contact</a>
+            </nav>
+        </div>
     </header>
     <div class="container-main-page" id="features">
         <div class="container-main-page__content main-content">
@@ -26,16 +36,20 @@
                 <img src="./images/logo.svg" alt="AXIT logo" class="inner-logo__img">
                 <h1 class="inner-content__h1">modern axure template for beautiful prototypes</h1>
                 <p class="inner-content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <input type="button" value="Download" class="inner-content__button"/>
+                <input type="button" value="Download" class="inner-content__button" />
             </div>
             <form class="main-content__form main-form">
-                <h4 class="main-form__h4">try your <span class="main-form__h4-free-text">&nbsp;free&nbsp;</span>trial today</h4>
+                <h4 class="main-form__h4">try your <span class="main-form__h4-free-text">&nbsp;free&nbsp;</span>trial
+                    today</h4>
                 <div class="main-form__items form-items">
-                    <input type="text" placeholder="Name" name="main-form-name" class="main-form__name main-form__input">
-                    <input type="email" placeholder="Email" name="main-form-email" class="main-form__email main-form__input">
-                    <input type="password" placeholder="Password" name="main-form-password" class="main-form__password main-form__input">
+                    <input type="text" placeholder="Name" name="main-form-name"
+                        class="main-form__name main-form__input">
+                    <input type="email" placeholder="Email" name="main-form-email"
+                        class="main-form__email main-form__input">
+                    <input type="password" placeholder="Password" name="main-form-password"
+                        class="main-form__password main-form__input">
                 </div>
-                <input type="submit" value="Get Started!" class="main-form__button"/>
+                <input type="submit" value="Get Started!" class="main-form__button" />
             </form>
         </div>
     </div>
@@ -43,7 +57,8 @@
         <div class="container-social-media__content smedia-inner-content">
             <div class="smedia-inner-content__text smedia-text">
                 <h4 class="smedia-text__h4">social media</h4>
-                <p class="smedia-text__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vitae cupiditate consectetur!</p>
+                <p class="smedia-text__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vitae
+                    cupiditate consectetur!</p>
             </div>
             <div class="smedia-inner-content__icons smedia-icons">
                 <a href="#" class="smedia-icons__item"><img src="./images/facebook.svg" alt="facebook" class="smedia-icons__img"></a>
@@ -56,29 +71,29 @@
             </div>
         </div>
     </div>
-    <div class="container-tabs" >
+    <div class="container-tabs">
         <div class="container-tabs__wrapper tabs-values">
             <input type="radio" name="action" id="tab1" class="tab-values__tab-action tab1" checked/>
-            <input type="radio" name="action" id="tab2" class="tab-values__tab-action tab2"/>
-            <input type="radio" name="action" id="tab3" class="tab-values__tab-action tab3"/>
-            
+            <input type="radio" name="action" id="tab2" class="tab-values__tab-action tab2" />
+            <input type="radio" name="action" id="tab3" class="tab-values__tab-action tab3" />
+
             <label class="tabs-values__title label1" for="tab1">tab 1</label>
             <label class="tabs-values__title label2" for="tab2">tab 2</label>
             <label class="tabs-values__title label3" for="tab3">tab 3</label>
-            
+
             <div class="tabs-values__content content-tab1">
                 <div class="content-tab1__inner tab-inner-content">
                     <h3 class="tab-inner-content__header tab-header1">Tabs with soft transitioning effect.</h3>
                     <p class="tab-inner-content__text tab-text1">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Sit aspernatur cumque quidem ad pariatur possimus, magnam temporibus 
-                        facilis mollitia ut natus dignissimos nisi voluptatibus, eos beatae 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Sit aspernatur cumque quidem ad pariatur possimus, magnam temporibus
+                        facilis mollitia ut natus dignissimos nisi voluptatibus, eos beatae
                         commodi tempore quaerat perferendis dolorem cum eius, iure repellat deleniti.
-                        Consequatur, corporis fugit veniam exercitationem sequi minima nobis eveniet 
-                        hic totam ab natus dolorem eligendi, quos excepturi qui ducimus voluptatibus deleniti. 
+                        Consequatur, corporis fugit veniam exercitationem sequi minima nobis eveniet
+                        hic totam ab natus dolorem eligendi, quos excepturi qui ducimus voluptatibus deleniti.
                         Vitae quas, ex tempore, sequi fugiat praesentium, suscipit obcaecati eos similique eius dolore.
                     </p>
-                    <input class="tab-inner-content__button tab-button1"  type="button" value="Download"/>
+                    <input class="tab-inner-content__button tab-button1" type="button" value="Download" />
                 </div>
                 <img class="content-tab__image tab-image1" src="./images/Rectangle111.png" alt="The Statue of Liberty">
             </div>
@@ -86,15 +101,15 @@
                 <div class="content-tab2__inner tab-inner-content">
                     <h3 class="tab-inner-content__header tab-header2">Tabs with soft transitioning effect.</h3>
                     <p class="tab-inner-content__text tab-text2">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Sit aspernatur cumque quidem ad pariatur possimus, magnam temporibus 
-                        facilis mollitia ut natus dignissimos nisi voluptatibus, eos beatae 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Sit aspernatur cumque quidem ad pariatur possimus, magnam temporibus
+                        facilis mollitia ut natus dignissimos nisi voluptatibus, eos beatae
                         commodi tempore quaerat perferendis dolorem cum eius, iure repellat deleniti.
-                        Consequatur, corporis fugit veniam exercitationem sequi minima nobis eveniet 
-                        hic totam ab natus dolorem eligendi, quos excepturi qui ducimus voluptatibus deleniti. 
+                        Consequatur, corporis fugit veniam exercitationem sequi minima nobis eveniet
+                        hic totam ab natus dolorem eligendi, quos excepturi qui ducimus voluptatibus deleniti.
                         Vitae quas, ex tempore, sequi fugiat praesentium, suscipit obcaecati eos similique eius dolore.
                     </p>
-                    <input class="tab-inner-content__button tab-button2" type="button" value="Download"/>
+                    <input class="tab-inner-content__button tab-button2" type="button" value="Download" />
                 </div>
                 <img class="content-tab__image tab-image2" src="./images/Rectangle222.jpg" alt="Sydney Opera House">
             </div>
@@ -102,15 +117,15 @@
                 <div class="content-tab3__inner tab-inner-content">
                     <h3 class="tab-inner-content__header tab-header3">Tabs with soft transitioning effect.</h3>
                     <p class="tab-inner-content__text tab-text3">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Sit aspernatur cumque quidem ad pariatur possimus, magnam temporibus 
-                        facilis mollitia ut natus dignissimos nisi voluptatibus, eos beatae 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Sit aspernatur cumque quidem ad pariatur possimus, magnam temporibus
+                        facilis mollitia ut natus dignissimos nisi voluptatibus, eos beatae
                         commodi tempore quaerat perferendis dolorem cum eius, iure repellat deleniti.
-                        Consequatur, corporis fugit veniam exercitationem sequi minima nobis eveniet 
-                        hic totam ab natus dolorem eligendi, quos excepturi qui ducimus voluptatibus deleniti. 
+                        Consequatur, corporis fugit veniam exercitationem sequi minima nobis eveniet
+                        hic totam ab natus dolorem eligendi, quos excepturi qui ducimus voluptatibus deleniti.
                         Vitae quas, ex tempore, sequi fugiat praesentium, suscipit obcaecati eos similique eius dolore.
                     </p>
-                    <input class="tab-inner-content__button tab-button3" type="button" value="Download"/>
+                    <input class="tab-inner-content__button tab-button3" type="button" value="Download" />
                 </div>
                 <img class="content-tab__image tab-image3" src="./images/Rectangle333.jpg" alt="Big Ben">
             </div>
@@ -120,7 +135,8 @@
         <header class="container-awesome-header">
             <h2 class="container-awesome-header_h2">why this is awesome</h2>
         </header>
-        <hr class="container-awesome-line"></hr>
+        <hr class="container-awesome-line">
+        </hr>
         <div class="container-awesome-subtext">
             <p class="container-awesome-subtext_h5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
@@ -130,21 +146,27 @@
                 <h4 class="container-awesome-blocks_h4">
                     Thoughtful Design
                 </h4>
-                <p class="container-awesome-blocks_h5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat at necessitatibus natus iste maxime, consectetur, distinctio impedit vitae atque explicabo aspernatur.</p>
+                <p class="container-awesome-blocks_h5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
+                    at necessitatibus natus iste maxime, consectetur, distinctio impedit vitae atque explicabo
+                    aspernatur.</p>
             </div>
             <div class="container-awesome-blocks_block">
                 <img class="container-awesome-blocks_img" src="./images/about_icon_2.png" alt="icon_2">
                 <h4 class="container-awesome-blocks_h4">
                     Thoughtful Design
                 </h4>
-                <p class="container-awesome-blocks_h5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat at necessitatibus natus iste maxime, consectetur, distinctio impedit vitae atque explicabo aspernatur.</p>
+                <p class="container-awesome-blocks_h5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
+                    at necessitatibus natus iste maxime, consectetur, distinctio impedit vitae atque explicabo
+                    aspernatur.</p>
             </div>
             <div class="container-awesome-blocks_block">
                 <img class="container-awesome-blocks_img" src="./images/about_icon_3.png" alt="icon_3">
                 <h4 class="container-awesome-blocks_h4">
                     Thoughtful Design
                 </h4>
-                <p class="container-awesome-blocks_h5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat at necessitatibus natus iste maxime, consectetur, distinctio impedit vitae atque explicabo aspernatur.</p>
+                <p class="container-awesome-blocks_h5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
+                    at necessitatibus natus iste maxime, consectetur, distinctio impedit vitae atque explicabo
+                    aspernatur.</p>
             </div>
         </div>
     </div>
@@ -210,10 +232,14 @@
             </h2>
             <hr class="customers-content__separator">
             <p class="customers-content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <input class="customers-content__radio-check customers-slider" type="radio" name="action-customer" id="review1" checked/>
+            <input class="customers-content__radio-check customers-slider" type="radio" name="action-customer" id="review2"/>
+            <input class="customers-content__radio-check customers-slider" type="radio" name="action-customer" id="review3"/>
             <div class="customers-content__reviews reviews-content">
-                <div class="reviews-content__item item-review-content">
+                <label class="reviews-content__item item-review-content review-item1" for="review1">
                     <div class="item-review-content__message review-message">
-                        <p class="review-message__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed corporis dicta ipsum iure et? Incidunt explicabo iusto itaque doloremque possimus.</p>
+                        <p class="review-message__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed
+                            corporis dicta ipsum iure et? Incidunt explicabo iusto itaque doloremque possimus.</p>
                     </div>
                     <div class="item-review-content__person review-person">
                         <img src="./images/person1.svg" alt="Customer1" class="review-person__image">
@@ -222,10 +248,11 @@
                             <p class="person-content__occup">manager</p>
                         </div>
                     </div>
-                </div>
-                <div class="reviews-content__item item-review-content">
+                </label>
+                <label class="reviews-content__item item-review-content review-item2" for="review2">
                     <div class="item-review-content__message review-message">
-                        <p class="review-message__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed corporis dicta ipsum iure et? Incidunt explicabo iusto itaque doloremque possimus.</p>
+                        <p class="review-message__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed
+                            corporis dicta ipsum iure et? Incidunt explicabo iusto itaque doloremque possimus.</p>
                     </div>
                     <div class="item-review-content__person review-person">
                         <img src="./images/person2.svg" alt="Customer2" class="review-person__image">
@@ -234,10 +261,11 @@
                             <p class="person-content__occup">manager</p>
                         </div>
                     </div>
-                </div>
-                <div class="reviews-content__item item-review-content">
+                </label>
+                <label class="reviews-content__item item-review-content review-item3" for="review3">
                     <div class="item-review-content__message review-message">
-                        <p class="review-message__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed corporis dicta ipsum iure et? Incidunt explicabo iusto itaque doloremque possimus.</p>
+                        <p class="review-message__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed
+                            corporis dicta ipsum iure et? Incidunt explicabo iusto itaque doloremque possimus.</p>
                     </div>
                     <div class="item-review-content__person review-person">
                         <img src="./images/person3.svg" alt="Customer3" class="review-person__image">
@@ -246,7 +274,12 @@
                             <p class="person-content__occup">manager</p>
                         </div>
                     </div>
-                </div>
+                </label>
+            </div>
+            <div class="container-customers__slider-show customers-custom-show">
+                <label class="customers-custom-show__item custom-show1" for="review1"></label>
+                <label class="customers-custom-show__item custom-show2" for="review2"></label>
+                <label class="customers-custom-show__item custom-show3" for="review3"></label>
             </div>
         </div>
     </div>
@@ -254,8 +287,9 @@
         <div class="container-design__content design-inner-content">
             <h2 class="design-inner-content__h2">stylish axure design</h2>
             <hr class="design-inner-content__separator">
-            <p class="design-inner-content__text">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
-            <input class="design-inner-content__button" type="button" value="Download"/>
+            <p class="design-inner-content__text">Use the sections you need, remove the ones you don't. Create gorgeous
+                prototypes faster than ever!</p>
+            <input class="design-inner-content__button" type="button" value="Download" />
         </div>
     </div>
     <div class="container-contacts" id="contact">
@@ -269,8 +303,10 @@
                 <div class="contact-form__items contact-form-block">
                     <input type="text" name="contact-form-name" placeholder="Name" class="contact-form-block__item">
                     <input type="email" name="contact-form-email" placeholder="Email" class="contact-form-block__item">
-                    <input type="password" name="contact-form-password" placeholder="Password" class="contact-form-block__item">
-                    <textarea name="contact-form-message" placeholder="Message" class="contact-form-block__textarea"></textarea>
+                    <input type="password" name="contact-form-password" placeholder="Password"
+                        class="contact-form-block__item">
+                    <textarea name="contact-form-message" placeholder="Message"
+                        class="contact-form-block__textarea"></textarea>
                 </div>
                 <input type="submit" value="Send Message" class="contact-form__button">
             </form>
@@ -279,12 +315,18 @@
     <footer class="main-footer">
         <div class="main-footer__content footer-inner-content">
             <div class="footer-inner-content__icons footer-icons">
-                <a href="" class="footer-icons__item"><img src="./images/facebook.svg" alt="" class="footer-icons__img"></a>
-                <a href="" class="footer-icons__item"><img src="./images/twitter.svg" alt="" class="footer-icons__img"></a>
-                <a href="" class="footer-icons__item"><img src="./images/linkedin.svg" alt="" class="footer-icons__img"></a>
-                <a href="" class="footer-icons__item"><img src="./images/pinterest.svg" alt="" class="footer-icons__img"></a>
-                <a href="" class="footer-icons__item"><img src="./images/instagram.svg" alt="" class="footer-icons__img"></a>
-                <a href="" class="footer-icons__item"><img src="./images/github.svg" alt="" class="footer-icons__img"></a>
+                <a href="" class="footer-icons__item"><img src="./images/facebook.svg" alt=""
+                        class="footer-icons__img"></a>
+                <a href="" class="footer-icons__item"><img src="./images/twitter.svg" alt=""
+                        class="footer-icons__img"></a>
+                <a href="" class="footer-icons__item"><img src="./images/linkedin.svg" alt=""
+                        class="footer-icons__img"></a>
+                <a href="" class="footer-icons__item"><img src="./images/pinterest.svg" alt=""
+                        class="footer-icons__img"></a>
+                <a href="" class="footer-icons__item"><img src="./images/instagram.svg" alt=""
+                        class="footer-icons__img"></a>
+                <a href="" class="footer-icons__item"><img src="./images/github.svg" alt=""
+                        class="footer-icons__img"></a>
                 <a href="" class="footer-icons__item"><img src="./images/rss.svg" alt="" class="footer-icons__img"></a>
             </div>
             <p class="footer-inner-content__sign">&#169 2015 axure themes</p>
