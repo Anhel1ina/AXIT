@@ -41,6 +41,8 @@ body {
     z-index: 5;
     top: 0;
     position: fixed;
+
+    transition: top 0.3s;
 }
 
 .header-content {
@@ -80,18 +82,15 @@ body {
     transition: .7s;
 }
 
-.main-nav-bar__a:hover,
-.main-nav-bar__a:active {
+.main-nav-bar__p{
+    height: 100%;
+    margin: 0;
+}
+
+.main-nav-bar__a:hover{
     text-transform: uppercase;
     cursor: pointer;
-}
-
-.main-nav-bar__a:hover {
     background-color: rgba(236, 121, 121, 1);
-}
-
-.main-nav-bar__a:active {
-    background-color: rgba(171, 73, 73, 1);
 }
 
 .header-content__burger-menu-check{
