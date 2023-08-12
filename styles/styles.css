@@ -130,7 +130,7 @@ body {
 
 #burger-menu:checked ~ .main-header .header-content{
     display: grid;
-    grid-template-rows: 76px auto;
+    grid-template-rows: 76px 335px;
     grid-template-columns: 184px auto;
 }
 
@@ -391,13 +391,13 @@ body {
     max-width: 38px;
     height: 100%;
     max-height: 19px;
-    border: 1px solid rgba(198, 203, 205, 1);
+    border: 1px solid white;
     border-radius: 5px 5px 0 0;
 
 }
 
 .tabs-values__title:not(.label1) {
-    margin-left: -5px;
+    margin-left: -4px;
 }
 
 .tabs-values__content {
@@ -476,14 +476,14 @@ body {
 }
 
 #tab1:checked ~.label1 {
-    border-color: rgba(198, 203, 205, 1);
+    border: 1px solid  rgba(198, 203, 205, 1);
     border-bottom-color: white;
 }
 
 #tab1:checked ~.label2,
 .label3 {
     border-color: white;
-    border-bottom-color: rgba(198, 203, 205, 1);
+    /* border-bottom-color: rgba(198, 203, 205, 1); */
 }
 
 #tab1:checked ~ .content-tab1 {
@@ -491,14 +491,14 @@ body {
 }
 
 #tab2:checked ~.label2 {
-    border-color: rgba(198, 203, 205, 1);
+    border: 1px solid  rgba(198, 203, 205, 1);
     border-bottom-color: white;
 }
 
 #tab2:checked ~ .label1,
 .label3 {
     border-color: white;
-    border-bottom-color: rgba(198, 203, 205, 1);
+    /* border-bottom-color: rgba(198, 203, 205, 1); */
 }
 
 #tab2:checked ~ .content-tab2 {
@@ -506,14 +506,14 @@ body {
 }
 
 #tab3:checked ~ .label3 {
-    border-color: rgba(198, 203, 205, 1);
+    border: 1px solid  rgba(198, 203, 205, 1);
     border-bottom-color: white;
 }
 
 #tab3:checked ~ .label1,
 .label2 {
     border-color: white;
-    border-bottom-color: rgba(198, 203, 205, 1);
+    /* border-bottom-color: rgba(198, 203, 205, 1); */
 }
 
 #tab3:checked ~ .content-tab3 {
@@ -1249,7 +1249,7 @@ body {
     }
 
     .contact-form-block {
-        height: 183px;
+        height: 185px;
     }
 
     .contacts-content__text {
@@ -1267,7 +1267,7 @@ body {
 
     .contact-form-block__textarea{
         margin-top: 8px;
-        height: 174px;
+        height: 176px;
         width: 486px;
     }
 
@@ -1853,6 +1853,7 @@ body {
 
     .container-awesome-header_h2{
         font-size: 18px;
+        padding: 34px 0;
     }
 
     .container-awesome-subtext{

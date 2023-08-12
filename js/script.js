@@ -13,3 +13,14 @@ window.onscroll = function () {
         document.getElementById("scroll-menu").style.top = "0";
     }
 }
+
+const menuItems = document.querySelectorAll('.main-nav-bar__a');
+const menuIcon = document.getElementById("burger-menu");
+        
+if(menuIcon.checked = true){
+    menuItems.forEach((menuItem) => {
+        menuItem.addEventListener('click', () => {
+            menuIcon.checked = false;
+        });
+    });
+}
